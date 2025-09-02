@@ -1,0 +1,9 @@
+.box{
+    color: blueviolet;
+    background-color: beige;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black;
+}

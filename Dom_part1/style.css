@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headings{
+    color: rgb(251, 251, 252);
+    background-color: rgb(4, 66, 52);
+    border: 1px solid black;
+}
+button:hover{
+    background-color: aqua;  
+}
+button{
+    background-color: rgb(159, 159, 241) ;
+}
+body{
+    background-color: beige;
+}
+
