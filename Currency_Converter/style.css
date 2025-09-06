@@ -1,78 +1,136 @@
-*{
-    margin:0;
-    padding:0;
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-body{
+
+/* Body Styling */
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: rgb(229, 199, 153);
+    background: linear-gradient(135deg, #f9d976, #f39f86);
 }
 
-.container{
-    background-color: aliceblue;
-    padding:2rem;
-    border-radius: 1rem;
+/* Main Container */
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1.2rem;
     height: 80vh;
     width: 60vh;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
 }
 
-form{
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Form Styling */
+form {
     margin: 2rem 0 1rem 0;
-    
 }
 
-form select,input,button{
+/* Input, Select & Button Styling */
+form select,
+form input,
+form button {
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 0.4rem;
-
+    border-radius: 0.5rem;
 }
 
-.amount p{
+/* Amount Label */
+.amount p {
     margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
 }
-form input{
-    border: 1px solid black;
+
+/* Input Field Styling */
+form input {
+    border: 1.5px solid #aaa;
     font-size: 1rem;
-    height: 1rem;
-    padding:0.5rem;
+    height: 2.2rem;
+    padding: 0.5rem;
     margin-bottom: 0.5rem;
+    transition: 0.2s;
 }
-.dropdown{
+
+form input:focus {
+    border-color: #00796b;
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.3);
+}
+
+/* Dropdown Styling */
+.dropdown {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 3rem;
+    gap: 1rem;
 }
-.selectOptions img{
-    
-    max-width: 2rem;
+
+.dropdown i {
+    margin-top: 1.5rem;
+    color: #00796b;
+    font-size: 1.5rem;
 }
-.selectOptions{
+
+/* Select Box Styling */
+.selectOptions {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:6rem;
-    border-radius: 0.7rem;
-    border: 1px solid black;
-    padding:0.7rem;
+    width: 7rem;
+    border-radius: 0.6rem;
+    border: 1.5px solid #aaa;
+    padding: 0.5rem;
     margin-top: 0.7rem;
-   
+    background-color: #f8f8f8;
+    transition: 0.2s;
 }
 
-.msg{
+.selectOptions:hover {
+    border-color: #00796b;
+    box-shadow: 0 0 6px rgba(0, 121, 107, 0.3);
+}
+
+/* Currency Flag Styling */
+.selectOptions img {
+    max-width: 2rem;
+    margin-right: 0.5rem;
+}
+
+/* Conversion Result Message */
+.msg {
     margin-top: 5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
 }
 
-form button{
-    height:2rem;
+/* Button Styling */
+form button {
     margin-top: 3rem;
-    background-color: rgb(1, 48, 48);
-    height:2.5rem;
+    background-color: #00796b;
+    height: 2.7rem;
     color: white;
     cursor: pointer;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+form button:hover {
+    background-color: #005f56;
+    box-shadow: 0 5px 12px rgba(0, 121, 107, 0.3);
 }
