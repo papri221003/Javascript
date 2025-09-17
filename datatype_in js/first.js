@@ -21,3 +21,10 @@ let student={
 console.log(student);
 student.name="Niladri";
 console.log(student);
+
+
+let name1="papri1";
+let name2="papri2";
+let name3="papri3";
+
+console.table([name1,name2,name3]);
