@@ -26,5 +26,5 @@ console.log(student);
 let name1="papri1";
 let name2="papri2";
 let name3="papri3";
-
-console.table([name1,name2,name3]);
+let name4;
+console.table([name1,name2,name3,name4]);
