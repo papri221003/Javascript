@@ -1,4 +1,4 @@
-let score = "Papri"
+let score = "Papri";                 
 
 console.log(typeof score);
 
