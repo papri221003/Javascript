@@ -59,3 +59,12 @@ console.log(greet.slice(1,5));
 
 const newgreet=greet.substring(1,4);
 console.log(newgreet);
+
+console.log(greet.includes('p'));
+const sentence="hello world myself papri";
+console.log(sentence.split(' '));
+
+const str1="Papri";
+const str2=" Bhattacharjee";
+
+console.log(str1.concat(str2));
