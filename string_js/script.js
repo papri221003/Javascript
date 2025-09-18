@@ -67,4 +67,10 @@ console.log(sentence.split(' '));
 const str1="Papri";
 const str2=" Bhattacharjee";
 
-console.log(str1.concat(str2));
+console.log(str1.concat(str2));    
+
+
+
+///to generate random value we use math.random()
+
+console.log(Math.random());   
