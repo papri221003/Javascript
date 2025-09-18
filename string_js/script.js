@@ -1,3 +1,4 @@
+/*
 let str="Papri Bhattacharjee";
 let k=str.length;
 console.log(k);
@@ -30,3 +31,31 @@ console.log(string.replaceAll("p","a"));
 let a="hello";
 let b=" world";
 console.log(a.concat(b));
+
+
+*/
+
+//********************************//
+//Practice
+
+/*********String Interpolation**********/
+let meow={
+    headcound: 5,
+    name: "billu",
+    work: "sleeping"
+};
+
+console.log(`The name of the cat is ${meow.name} and it's only work is ${meow.work}. There are total ${meow.headcound} cats`);
+
+let greet=new String(" Hello ");
+console.log(greet.length);
+console.log(greet.toUpperCase());
+console.log(greet.trim());
+console.log(greet.charAt(2));
+console.log(greet.indexOf('H'));
+console.log(greet.replace('l','p'));
+console.log(greet.replaceAll('l','p'));
+console.log(greet.slice(1,5));
+
+const newgreet=greet.substring(1,4);
+console.log(newgreet);
