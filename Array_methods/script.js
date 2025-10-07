@@ -76,7 +76,8 @@ console.log(max);
 
 //Practice qs 2
 
-let n=Number(prompt("Enter a integer"));
+
+let n=Number(prompt("Enter a Integer"));
 let array=[];
 for(let i=0;i<n;i++)
 {
@@ -90,3 +91,13 @@ const sum=array.reduce((prev,curr)=>{
       return prev*curr;
 });
 console.log(sum);
+
+
+
+
+const arr=[1,2,4,8,10];
+const newarr =arr.join();
+console.log(arr);
+console.log(newarr);
+console.log(typeof(newarr));
+console.log(arr.toString());
