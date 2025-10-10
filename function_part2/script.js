@@ -32,7 +32,22 @@ const userdata={
 }
 
 function print(myobj){
-    console.log(`The username is ${myobj.username} and the age is ${myobj.userdata}`);
+    console.log(`The username is ${myobj.username} and the age is ${myobj.userAge}`);
 }
 
 print(userdata);
+
+
+//This keyword
+const user={
+    username:"Hitesh",
+    Age:22,
+    greet:function(){
+        console.log(`${this.username},Hello!!`);
+        console.log(this);
+    }
+}
+
+console.log(this);
+
+user.greet();
