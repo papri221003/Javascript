@@ -43,7 +43,7 @@ print();
 
 //practice question: "Creation a function using the function keyword that takes a String as an argument and returns the number of vowels in the string"
 
-function countVowel(str)
+/*function countVowel(str)
 {
     let count=0;
     for(let i=0;i<str.length;i++)
@@ -59,5 +59,20 @@ function countVowel(str)
 
 let val=prompt("Enter a string");
 
-console.log(countVowel(val));
+console.log(countVowel(val));*/
+
+
+//Function with parameter
+
+function loginDetails(username)
+{
+    if(username === undefined)
+    {
+        return `Please enter a valid username!!`;
+        
+    }
+    return `${username} just logged in`;
+}
+
+console.log(loginDetails());
 
