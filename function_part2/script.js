@@ -51,3 +51,18 @@ const user={
 console.log(this);
 
 user.greet();
+
+
+//++++++++++++IIFE(IMMEDIATELY INVOKED FUNCTION EXPRESSION)+++++++++++++++++++
+
+(function chai()
+{
+    console.log("HELLO!!");
+})();
+
+console.log("hi");
+
+
+((name)=>{
+    console.log(`${name},Welcome!!`);
+})("papri")
