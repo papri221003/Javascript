@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg_clr{
+    background-color: black;
+    color: beige;
+}
+
+.parent{
+    font-size: 25px;
+    padding: 10px;
+}
